@@ -167,9 +167,6 @@ void startHttpServer() {
           Serial.println("Got on request");
       }
 
-      //digitalWrite(relayPin, HIGH); // turn on relay with voltage HIGH
-        // For a set of NeoPixels the first NeoPixel is 0, second is 1, all the way up to the count of pixels minus one.
-
 //INSERT ON/DOWN CODE HERE
 digitalWrite(5,HIGH);
 delayMicroseconds(4888);
