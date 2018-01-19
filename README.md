@@ -1,5 +1,5 @@
 # This project emulates a Wemos device which works with Alexa to raise and lower the Bofu window roller motors.  
-# Please make note that this project was not created by, affiliated with, or endorsed by Amazon, or the Alexa brand.
+*Please make note that this project was not created by, affiliated with, or endorsed by Bofo, Wemos, Amazon, or the Alexa brand.
 
 **Forked from Makersmusings Fauxmo library.  The WifiManager portion was contributed by Tapzu and the RF_Record portion by SillyFrog.  These libraries need to be installed in the Arduino IDE for this sketch to function. The repositories can be found at the following locations:
 
