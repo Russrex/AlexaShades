@@ -167,7 +167,7 @@ void startHttpServer() {
           Serial.println("Got on request");
       }
 
-//INSERT ON/DOWN CODE HERE
+//INSERT BOFU DOWN CODE HERE
 digitalWrite(5,HIGH);
 delayMicroseconds(4888);
 digitalWrite(5,LOW);
@@ -352,7 +352,7 @@ Serial.print("Signal Sent!");
           Serial.println("Got off request");
       }
 
-//INSERT OFF/UP CODE HERE
+//INSERT BOFU UP CODE HERE
 digitalWrite(5,HIGH);
 delayMicroseconds(5000);
 digitalWrite(5,LOW);
