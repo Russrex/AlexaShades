@@ -9,6 +9,9 @@ https://github.com/tzapu/WiFiManager
 
 https://github.com/sillyfrog/RFreplayESP
 
+STL's for the project enclosure can be downloaded at 
+https://www.thingiverse.com/thing:2764119
+
 ### Summary
 
 This code allows the basic control of the Bofu window motors using the following components:
