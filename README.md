@@ -34,7 +34,7 @@ Links to thingy verse to be provided for the print of an enclosure for the NodeM
 
 ### Instructions
 
-Before uploadding this code to the NodeMCU the following commented sections will need to be updated. 
+Before uploadding this code to the NodeMCU the following commented sections will need to be updated in the russaroller.ino:
 
 //INSERT BOFU DOWN CODE HERE
 //INSERT BOFU UP CODE HERE
