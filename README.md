@@ -34,9 +34,9 @@ Links to thingy verse to be provided for the print of an enclosure for the NodeM
 
 ### Instructions
 
-Before uploadding this code to the NodeMCU the section of code commented, 
+Before uploadding this code to the NodeMCU the following commented sections will need to be updated. 
 
 //INSERT BOFU DOWN CODE HERE
 //INSERT BOFU UP CODE HERE
 
-will need to be updated with the RF codes matching your specific remotes. The Wiki will provide information on how to decode the Bofu remote. I spent an embarasing amount of time finding a consistent way to decode these remotes so hopefully you wont's have to.
+These codes will be specific to your Bofu remote. They may be obtained with the NodeMCU, a 5V-RF receiver module and the RF_Record.ino.  The Wiki will provide information on how to decode the Bofu remote. I spent an embarasing amount of time finding a consistent way to decode these remotes so hopefully you wont's have to.
