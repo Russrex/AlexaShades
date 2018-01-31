@@ -29,14 +29,26 @@ This code allows the basic control of the Bofu window motors using the following
 
 -The Wifimanager library was added to eliminate the need to manually configure a user name and password into the sketch in the event wireless network password or wireless access point are changed.
 
--If the NodeMCU cannot connect to the network the ESP xxxxx will apear in the list of available wireless networks for reconfiguration.
-Links to thingy verse to be provided for the print of an enclosure for the NodeMCU.
+-If the NodeMCU cannot connect to your WiFi network; the netework named ESPxxxxx will apear in the list of available wireless networks for reconfiguration.
+
+Links to thingy verse to be provided for the print of an enclosure for the NodeMCU 12E V3.  The enclusure also has tabs to hold the RF transmitter.
+
+Everything you'll need is available on amazon.  Here is the current bill of materials:
+
+-MorningRising 12V DIY Electric Roller Blind / Shade Tubular 25mm Motor Kit & Remote Controller $56.00
+-NodeMCU 12E v3 $6.99
+-433MHz RF Transmitter and Receiver Wireless Modules Link Kit for Arduino ARM MCU WL $2.50
+-PLA fillament is your be printing the enclosure
+-USB to micro USB cable and power adapter
+-Some wire and solder
+-A partridge and a pair tree
 
 ### Instructions
 
 Before uploadding this code to the NodeMCU the following commented sections will need to be updated in the russaroller.ino:
 
 //INSERT BOFU DOWN CODE HERE
+
 //INSERT BOFU UP CODE HERE
 
-These codes will be specific to your Bofu remote. They may be obtained with the NodeMCU, a 5V-RF receiver module and the RF_Record.ino.  The Wiki will provide information on how to decode the Bofu remote. I spent an embarasing amount of time finding a consistent way to decode these remotes so hopefully you wont's have to.
+These codes will be specific to your Bofu remote. They may be obtained with the NodeMCU, a 5V-RF receiver module and the RF_Record.ino.  The Wiki will provide information on how to decode the Bofu remote. I spent an embarasing amount of time finding a consistent way to decode these remotes so you wont's have to. Enjoy!
